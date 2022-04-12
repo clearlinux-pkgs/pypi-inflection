@@ -4,7 +4,7 @@
 #
 Name     : pypi-inflection
 Version  : 0.5.1
-Release  : 30
+Release  : 31
 URL      : https://files.pythonhosted.org/packages/e1/7e/691d061b7329bc8d54edbf0ec22fbfb2afe61facb681f9aaa9bff7a27d04/inflection-0.5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e1/7e/691d061b7329bc8d54edbf0ec22fbfb2afe61facb681f9aaa9bff7a27d04/inflection-0.5.1.tar.gz
 Summary  : A port of Ruby on Rails inflector to Python
@@ -14,9 +14,6 @@ Requires: pypi-inflection-license = %{version}-%{release}
 Requires: pypi-inflection-python = %{version}-%{release}
 Requires: pypi-inflection-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: inflection
-Provides: inflection-python
-Provides: inflection-python3
 
 %description
 ==========
@@ -59,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641445003
+export SOURCE_DATE_EPOCH=1649764183
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
